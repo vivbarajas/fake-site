@@ -1,0 +1,78 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "SourceSansPro-Regular", -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  min-width: 320px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  font-size: 1.375em;
+  line-height: 1.75em;
+  color: #88939e;
+  text-decoration: none;
+  font-family: "SourceSansPro-Light";
+}
+
+a:hover {
+  color: #4c4c51;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  color: #4c4c51;
+  margin: 1em 0 0.5em;
+}
+
+p {
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  color: #88939e;
+  font-family: "SourceSansPro-Light";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "SourceSansPro-Bold";
+  src: url("../public/fonts/SourceSansPro-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("../public/fonts/SourceSansPro-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSansPro-Light";
+  src: url("../public/fonts/SourceSansPro-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}

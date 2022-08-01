@@ -1,0 +1,26 @@
+.container {
+  padding: 0 7rem;
+}
+
+.homeLink {
+  color: #ee2d1c;
+  font-family: "SourceSansPro-Regular";
+}
+
+.homeLink:hover {
+  color: #4c4c51;
+}
+
+.videoContainer {
+  max-width: 1185px;
+}
+
+.videoTitle:hover {
+  color: #ee2d1c;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 2rem;
+  }
+}

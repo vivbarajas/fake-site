@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 2rem 0;
+  min-height: 55px;
+  width: 100%;
+  max-width: 1185px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatarBorder {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  border: 0.2rem solid white;
+  box-sizing: border-box;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    margin: 2rem 0;
+  }
+
+  .align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+  }
+}
