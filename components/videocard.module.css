@@ -1,0 +1,23 @@
+.videoLink:hover {
+  color: #ee2d1c;
+}
+
+.videoCard {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 3rem;
+  align-items: center;
+  width: 100%;
+}
+
+.videoDetails p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .videoCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}
